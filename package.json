@@ -1,0 +1,23 @@
+{
+  "name": "react-basics",
+  "version": "1.0.0",
+  "description": "This is my test repo (Namaste React)",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "namaste-react-test-repo"
+  },
+  "keywords": [
+    "react",
+    "repo",
+    "react-bascis"
+  ],
+  "author": "Jasjeet Singh Mann",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

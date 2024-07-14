@@ -1,0 +1,4 @@
+/node_modules
+
+# We don't push the node module file in production as it is very huge and we can recreate node modules from packages json
+# Whereas is is import to push package and package lock on github as they store the dependencies and thier version we are using
