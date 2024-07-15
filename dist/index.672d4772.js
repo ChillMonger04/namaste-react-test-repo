@@ -1,3 +1,5 @@
+// Now after removing cdn and installing react we need to import it into our codebase
+impo;
 // Creating a Hello World basic message using React JS
 // In React.createElement() there are 3 parameters -
 // First parameter is the element we want to create

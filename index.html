@@ -11,20 +11,12 @@
     <div id="main"></div>
     <h1 id="headingbottom">H1 BOTTOM OF MAIN</h1>
 
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script> 
+    <!-- Made it type module so that browser get to know it is not a normal js file -->
   </body>
 </html>
 
-
-<!-- package.json is a configuration for our npm, it keeps a track of all the dependencies there versions we are using  -->
+<!-- package.json (INSTALL AFTER npm init) is a configuration for our npm, it keeps a track of all the dependencies there versions we are using  -->
 <!-- Whereas package.lock.json (INSTALLED AFTER PARCEL) keeps the track of the exact version of dependencies we are using -->
 <!-- The node modules -> it contains all the data of npm we have fetched (kind of a database) -->
 <!-- Transitive dependency -> it is like we have parcel as a dependency, it will further have its own dependencies -->
@@ -33,3 +25,11 @@
 Dev is mostly used for development production builds and Normal are used for general builds
 
 CARET and TILDE are used in version to automatically update if there is a change in our dependency version -->
+
+<!-- As soon as we do some changes in our code and save it Parcel reloads the page the shows the updated version
+this is know as HMR. Parcel does the following things
+    HMR -> Hot Module Replacement
+    File Watching Algorithm
+    Caching Files -> For faster builds
+    Image Optimization
+    Minification and Bundling  -->

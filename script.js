@@ -1,3 +1,7 @@
+// Now after removing cdn and installing react we need to import it into our codebase
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // Creating a Hello World basic message using React JS
 
 // In React.createElement() there are 3 parameters -
