@@ -2,3 +2,8 @@
 
 # We don't push the node module file in production as it is very huge and we can recreate node modules from packages json
 # Whereas is is import to push package and package lock on github as they store the dependencies and thier version we are using
+
+/dist
+/.parcel-cache
+
+# As these files can be regenerated in production by git. When we do npn parcel index.html these files will be recreated
