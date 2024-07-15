@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is my test repo (Namaste React)",
   "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -12,7 +14,7 @@
   "keywords": [
     "react",
     "repo",
-    "react-bascis"
+    "react-basics"
   ],
   "author": "Jasjeet Singh Mann",
   "license": "ISC",
@@ -23,5 +25,13 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "browserslist": [
+    "last 10 versions",
+    "cover 99.5% in IN",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
 }
