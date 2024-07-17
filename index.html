@@ -57,3 +57,22 @@ There are two types of Import/Export
 
   Default Export -> export default Component
   Default Import -> import Component from 'path' -->
+
+<!-- React Hook are normal JS Utility functions
+Whenever there is a change in the state, React re-render the component
+Array destructing is used in useState hook -->
+
+<!-- SUPER IMP
+We needed the second function in useState hook to trigger the Diff Algorithm
+React creates a virtual DOM of the state variable and whenever the state variable changes is updated
+React then compares the new virtual DOM with the old virtual DOM and updates only the necessary parts of the DOM
+This way, it makes the application more efficient and faster to render -->
+
+Optional Chaining (?.)
+
+<!-- Optional chaining is used to make our code more readable and error-proof
+For example, instead of writing if(resData && resData.data && resData.data.results) we can write resData?.data?.results -->
+<!-- This operator accesses the object's property or calls a function. If the object
+accessed or function called using this operator is undefined or null, the
+expression short circuits and evaluates to undefined instead of throwing an
+error. -->
